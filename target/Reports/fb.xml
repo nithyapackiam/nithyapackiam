@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="5.321048">
+    <testcase classname="Validate the forgotten password functionality" name="validate with Invalid username and Valid password" time="5.321048">
+        <failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at org.StepDefinition.ForgottonStep.validate_user_should_navigate_to_password_reset_page(ForgottonStep.java:42)&#13;&#10;&#9;at ✽.validate user should navigate to password reset page(file:src/test/resources/Forgotten.feature:10)&#13;&#10;">
+            <![CDATA[When user should click the forgotten password link..........................passed
+And user should enter invalid username or password..........................passed
+And user should get the current url of the page.............................passed
+And user should click search button.........................................passed
+Then validate user should navigate to password reset page...................failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at org.StepDefinition.ForgottonStep.validate_user_should_navigate_to_password_reset_page(ForgottonStep.java:42)
+	at ✽.validate user should navigate to password reset page(file:src/test/resources/Forgotten.feature:10)
+]]>
+        </failure>
+    </testcase>
+</testsuite>

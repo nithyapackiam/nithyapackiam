@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="4" tests="7" time="79.339063">
+    <testcase classname="Validate the forgotten password functionality" name="validate with Invalid username and Valid password" time="8.285724">
+        <skipped>
+            <![CDATA[When user should click the forgotten password link..........................passed
+And user should enter invalid mobile number.................................undefined
+And user should get the current url of the page.............................skipped
+And user should click search button.........................................skipped
+Then validate user should navigate to password reset page...................skipped
+]]>
+        </skipped>
+    </testcase>
+    <testcase classname="Validate the login functionality of my fackbook" name="validate with invalid username and invalid password" time="27.365862">
+        <system-out>
+            <![CDATA[When user should enter invalid username and invalid password................passed
+And user should get the title of the page...................................passed
+And user should get the current url of the page.............................passed
+And user should click login button..........................................passed
+Then validate user should navigate to incorrect credential page.............passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Validate the login functionality of my fackbook" name="validate with valid username and invalid password" time="5.244045">
+        <skipped>
+            <![CDATA[When you should enter invalid username and the invalid password.............undefined
+And user should click login button..........................................skipped
+]]>
+        </skipped>
+    </testcase>
+    <testcase classname="Validate the login functionality of my fackbook" name="validate with valid username and valid password" time="2.15735">
+        <skipped>
+            <![CDATA[When user should enter invalid username field and valid password............undefined
+And user should click login button..........................................skipped
+]]>
+        </skipped>
+    </testcase>
+    <testcase classname="Validate the login functionality of my fackbook" name="validate with invalid username and invalid password" time="2.03905">
+        <skipped>
+            <![CDATA[When user enter Invalid username and Valid password.........................undefined
+And user should click login button..........................................skipped
+]]>
+        </skipped>
+    </testcase>
+    <testcase classname="Validate the login functionality of my fackbook" name="validate with Valid username and Invalid password" time="12.437174">
+        <system-out>
+            <![CDATA[When user should enter valid username "meenu@546" and invalid password"muthumeenu".passed
+And user should click button................................................passed
+Then validate user should navigate to incorrect credential page.............passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Validate the login functionality of my fackbook" name="validate with Valid username and Invalid password 2" time="21.809858">
+        <system-out>
+            <![CDATA[When user should enter valid username "maha@123" and invalid password"Mahalakshmi123".passed
+And user should click button................................................passed
+Then validate user should navigate to incorrect credential page.............passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
