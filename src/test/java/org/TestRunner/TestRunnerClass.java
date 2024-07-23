@@ -12,7 +12,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features="src\\test\\resources", glue="org.StepDefinition", monochrome=true, 
-dryRun=false, plugin= {"html:target\\Reports", "junit:target\\Reports\\fb.xml",
+dryRun=false, tags="@Sanity", plugin= {"html:target\\Reports", "junit:target\\Reports\\fb.xml",
 		"json:target\\Reports\\facebook.json", "rerun:\\src\\test\\resources\\Rerun\\Failed.txt"})
 
 
